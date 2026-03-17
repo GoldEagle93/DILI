@@ -1,3 +1,6 @@
 *.csv
 Data/*.csv
 .DS_Store
+!Data/DILIrank-2.0.csv
+!Data/DILI_rank_2_features.csv
+!Data/valid_dili_rank_2.csv

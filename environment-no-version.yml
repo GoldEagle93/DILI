@@ -1,0 +1,44 @@
+name: DILI
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - rdkit
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - networkx
+  - joblib
+  - sympy
+  - pytorch-lightning
+  - lightning
+  - xgboost
+  - h5py
+  - tqdm
+  - pip
+  - pip:
+    - deepchem
+    - dilipred
+    - molvs
+    - mordred
+    - pubchempy
+    - dimorphite-dl
+    - torch
+    - torch-geometric
+    - transformers
+    - tensorflow
+    - keras
+    - shap
+    - huggingface-hub
+    - tokenizers
+    - safetensors
+    - jax
+    - jaxlib
+    - pandarallel
+    - loguru
+    - absl-py
+    - opt-einsum
